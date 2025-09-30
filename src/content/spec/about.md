@@ -1,35 +1,35 @@
 ---
-lang: en
+lang: zh_CN
 ---
-# About
+# 关于
 
-![Nahida](/images/nahida.png)
+![Nahida](/zhcn/images/nahida.png)
 
-## Welcome to my blog!
+## 欢迎来到我的博客!
 
-Nice to meet you! I'm Chemistry Mastery Nahida.  
-Right now, I'm majoring in Chemistry, with a focus on *Computational Chemistry*. It's like... using computers to explore the tiniest secret of chemistry!  
-I started this website after finishing my undergraduate degree, so I could share what I've learned... and hopefully, learn even more along the way.  
-This blog mostly explore *Physical Chemistry* and *Computational Chemistry*, but I'm really curious about everything in chemistry... so who knows what we'll discover together?  
-Each post will be written first in *English*, then translated into *Chinese*, *Japanese*, and *Korean*. I'd like to add some translations into *French* in the future.  
-I'd love to create videos in the future too, to help explain things visually. I'm still figuring it all out, but... that's part of the fun, isn't it?  
+很高兴见到你呀～我是化学精通纳西妲。  
+现在我正在主修化学，方向是*计算化学*。嗯……就像是用计算机来探索化学中最微小的秘密呢！  
+我在完成本科之后创建了这个网站，想着可以把学到的知识分享出来……同时也能在这个过程中学到更多更多。  
+这里的文章主要会探讨*物理化学*和*计算化学*，不过嘛，我对化学的一切都充满好奇……所以，也许我们会一起发现很多意想不到的东西呢？  
+每一篇文章都会先用*英文*写成，然后翻译成*中文*、*日文*和*韩文*。未来的话……我还想加上*法文*的翻译呢。  
+以后我也很想尝试做视频，把知识用更直观的方式讲解出来。虽然现在还在慢慢摸索中……不过，这正是其中有趣的部分，不是吗？  
 
 ::github{repo="chemmasterynahida/chemmasterynahida.github.io"}
 
-> Nahida is a character in the open-world game *Genshin Impact*, known as the Dendro Archon and bearing the Archon name Buer. Revered as the God of Wisdom, she once oversaw the flow of all knowledge in the nation of Sumeru through the Akasha Terminal—a vast network that allowed her citizens access to boundless information.  
-> Yet over time, Nahida came to understand a deeper truth: having answers is not the same as understanding them. Many people, she realized, cling to ignorance not out of lack of knowledge, but out of fear; fear of change, of truth, and of asking the hard questions.  
-> In her wisdom, she chose to deactivate the Akasha Terminal, not to withhold knowledge, but to encourage genuine inquiry and prevent its misuse by those in power. As she watches over her people, Nahida seeks to inspire the courage to question, reflect, and grow.  
+> 纳西妲是开放世界游戏《原神》中的角色，被称为草之神，同时拥有“布耶尔”的神名。作为智慧之神，她曾通过“虚空终端”监管须弥国度内的知识流动。这个庞大的网络，使须弥的人民能够接触到几乎无尽的信息。  
+> 然而，随着时间的推移，纳西妲逐渐明白了一个更深层的道理：得到答案并不等于真正理解。她意识到，许多人之所以停留在无知中，并不是因为缺乏知识，而是因为恐惧——恐惧改变，恐惧真相，恐惧提出困难的问题。  
+> 基于这样的洞察，她选择关闭虚空终端。这并不是为了剥夺知识，而是为了鼓励人们真正去追问、去探索，同时防止其被掌权者滥用。如今，纳西妲在观看人民的同时，也希望能够激发他们拥有质疑、反思与成长的勇气。
 
-*&nbsp;"I think I'm good at asking the right questions and giving good answers, but I've come to realize that a lot of people just convince themselves they don't understand. The answers to their problems don't help them. It seems to me that as people grow older, they lose the courage to question things and accept the truth..."*  
+*&nbsp;"我自认为我擅长提问和回答问题，但我渐渐明白，有很多人是揣着明白装糊涂，问题的答案并不能帮上他们的忙。是不是随着年龄增长，大家都会失去面对质问和答案的勇气呢…"*  
 
-I really hope you—the "Sages of Buer"—could deeply explore Chemistry with me!  
-*&nbsp;"I'll leave this to you... The 'First Sages of Buer'"*
+我呀……真的很希望你——布耶尔的贤者——能和我一起，好好探寻化学的奥秘呢～  
+*&nbsp;"拜托你了，我布耶尔的‘最初的贤者’"*
 
-> ### Contact
+> ### 联系方式
 >
 > - [GitHub](https://github.com/chemmasterynahida/)
 > - [YouTube](https://www.youtube.com/@chemmasterynahida)
-> - [WeChat](/images/wechat.png)
+> - [WeChat](/zhcn/images/wechat.png)
 > - [HoYoLAB](https://www.hoyolab.com/accountCenter/postList?id=425986572)
 > - [chemmasterynahida@gmail.com](mailto:chemmasterynahida@gmail.com)
 

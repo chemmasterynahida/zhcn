@@ -1,86 +1,86 @@
 ---
-title: "Quantum Chemistry: Contents"
+title: "量子化学: 目录"
 published: 2025-09-30
-tags: [Quantum Chemistry, Contents]
-category: Quantum Chemistry
-lang: en
+tags: [量子化学, 目录]
+category: 量子化学
+lang: zh_CN
 draft: false
 ---
 
-# Quantum Chemistry
+# 量子化学
 
-The final version of Contents will be TBD
+最终目录待定
 
-1. Historical Background of Quantum Mechanics  
-    1.1. Blackbody Radiation  
-    1.2. Photoelectric Effect  
-    1.3. Atomic Model  
-    1.4. Matter Wave  
-2. The Schrödinger Equation  
-    2.1. The Equation  
-    2.2. Uncertainty Principle <!-- Levine 1.3 -->  
-    2.3. Operators <!-- Levine 3 -->  
-    2.4. Quantum Postulates <!-- Levine 7.8 -->  
-3. Particle in a Box  
-    3.1. Free Particle in One Dimension  
-    3.2. Particle in a One-Dimensional Box  
-    3.3. Particle in a Rectengular Well  
-    3.4. Tunneling  
-4. The Harmonic Oscillator  
-    4.1. The One-Dimensional Harmonic Oscillator  
-    4.2. Vibration of Diatomic Molecules  
-5. Angular Momentum  
-    5.1. Angular Momentum of a One-Particle System  
-    5.2. The Two-Particle Rigid Rotor <!-- Levine 6.4 -->  
-    5.3. Ladder-Operator Method  
-6. The Hydrogen Atom <!-- Levine 6 -->  
-    6.1. The Hydrogen Atom  
-    6.2. The Bound-State Hydrogen-Atom Wave Functions  
-    6.3. Hydrogen-Like Orbitals  
-    6.4. The Zeeman Effect  
-7. Variation Method  
-8. Perturbation Theory  
-9. Electron Spin  
-    9.1. Spin in the Hydrogen Atom  
-    9.2. Spin-Statistics Theorem  
-    9.3. Helium Atom  
-    9.4. Pauli Exclusion Principle  
-    9.5. Slater Determinants  
-10. Electronic Structure of Diatomic Molecules <!-- Levine 13 -->  
-    10.1. Born-Oppenheimer Approximation  
-    10.2. Hydrogen Molecule Ion  
-    10.3. Hydrogen Molecule  
-    10.4. Homonuclear Diatomic Molecules  
-    10.5. Heteronuclear Diatomic Molecules  
-11. Many-Electron Atoms <!-- Levine 11 -->  
-    11.1. Hartree-Fock Self-Consistent-Field Method  
-    11.2. Orbitals and Periodic Table  
-    11.3. Electron Correlation  
-    11.4. Angular Momentum in Many-Electron Atoms  
-    11.5. Atomic Hamiltonian  
-12. Molecular Quantum Mechanics  
-    12.1. Electron Probability Density  
-    12.2. Dipole Moments  
-    12.3. HF for Molecules  
-    12.4. Virial Theorem  
-    12.5. Hellmann-Feynman Theorem  
-    12.6. Electrostatic Theorem  
-13. Molecular Electronic Structure  
-    13.1. Polyatomic Molecules  
-    13.2. Basis Functions  
-    13.3. SCF MO Treatment  
-    13.4. Population Analysis and Bond Orders  
-14. Electron-Correlation Methods  
-    14.1. Correlation Energy  
-    14.2. Configuration Interaction  
-    14.3. Møller-Plesset Perturbation Theory  
-    14.4. Coupled-Cluster Method  
-    14.5. Density Functional Theory  
-    14.6. Quantum Monte Carlo Method  
-    14.7. Chemical Reactions  
-15. Semiempirical Methods  
-    15.1. Hückel MO Method  
-    15.2. Pariser-Parr-Pople Method  
-    15.3. Semiempirical MO and DFT  
-    15.4. Molecular-Mechanics  
-    15.5. Semiempirical Treatment of Solvent Effects  
+1. 量子力学的历史背景  
+    1.1. 黑体辐射  
+    1.2. 光电效应  
+    1.3. 原子模型  
+    1.4. 物质波  
+2. 薛定谔方程  
+    2.1. 方程式  
+    2.2. 不确定性原理 <!-- Levine 1.3 -->  
+    2.3. 算子 <!-- Levine 3 -->  
+    2.4. 量子公设 <!-- Levine 7.8 -->  
+3. 箱中粒子  
+    3.1. 一维自由粒子  
+    3.2. 一维箱中粒子  
+    3.3. 矩形势阱中的粒子  
+    3.4. 隧穿效应  
+4. 简谐振子  
+    4.1. 一维简谐振子  
+    4.2. 双原子分子的振动  
+5. 角动量  
+    5.1. 单粒子系统的角动量  
+    5.2. 双粒子刚性转子 <!-- Levine 6.4 -->  
+    5.3. 阶梯算子方法  
+6. 氢原子 <!-- Levine 6 -->  
+    6.1. 氢原子  
+    6.2. 束缚态氢原子波函数  
+    6.3. 类氢轨道  
+    6.4. 塞曼效应  
+7. 变分法  
+8. 微扰论  
+9. 电子自旋  
+    9.1. 氢原子中的自旋  
+    9.2. 自旋统计定理  
+    9.3. 氦原子  
+    9.4. 泡利不相容原理  
+    9.5. 斯莱特行列式  
+10. 双原子分子的电子结构 <!-- Levine 13 -->  
+    10.1. Born–Oppenheimer 近似  
+    10.2. 氢分子离子  
+    10.3. 氢分子  
+    10.4. 同核双原子分子  
+    10.5. 异核双原子分子  
+11. 多电子原子 <!-- Levine 11 -->  
+    11.1. Hartree–Fock自洽场方法(HF-SCF)  
+    11.2. 轨道与元素周期表  
+    11.3. 电子相关  
+    11.4. 多电子原子的角动量  
+    11.5. 原子哈密顿量  
+12. 分子量子力学  
+    12.1. 电子概率密度  
+    12.2. 偶极矩  
+    12.3. 分子的 HF 方法  
+    12.4. Virial 定理  
+    12.5. Hellmann–Feynman 定理  
+    12.6. 静电定理  
+13. 分子电子结构  
+    13.1. 多原子分子  
+    13.2. 基函数  
+    13.3. SCF MO 处理  
+    13.4. 布居分析与键级  
+14. 电子相关方法  
+    14.1. 相关能  
+    14.2. 配置互相作用  
+    14.3. Møller–Plesset 微扰理论  
+    14.4. 耦合簇方法  
+    14.5. 密度泛函理论(DFT)  
+    14.6. 量子蒙特卡罗方法  
+    14.7. 化学反应  
+15. 半经验方法  
+    15.1. Hückel MO 方法  
+    15.2. Pariser–Parr–Pople 方法  
+    15.3. 半经验 MO 与 DFT  
+    15.4. 分子力学  
+    15.5. 溶剂效应的半经验处理  
