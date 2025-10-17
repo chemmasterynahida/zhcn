@@ -13,7 +13,7 @@ draft: false
 
 ## 量子化学：导论
 
-你好呀～这是 **化学精通纳西妲**。  
+你好呀～这是化学精通纳西妲。  
 今天，我们要开启第一节关于「量子化学」的课程——一个连光与能量都遵循奇妙微观法则的世界。  
 
 在开始之前，我们需要先了解「量子」这个词的含义。  
@@ -26,7 +26,7 @@ draft: false
 
 ## 普朗克之前（1900年之前）
 
-让我们回到牛顿的时代，去看看一个让物理学家百思不得其解的问题——**黑体辐射**。  
+让我们回到十九世纪末，去看看一个让物理学家百思不得其解的问题——**黑体辐射**。  
 **牛顿**早在他的著作《光学》中就提到过类似的现象：  
 
 > "Do not black Bodies conceive heat more easily from Light than those of other Colours do, by reason that the Light falling on them is not reflected outwards, but enters the Bodies, and is often reflected and refracted within them, until it be stifled and lost?"  
@@ -202,9 +202,8 @@ $$\lambda_{peak}=\frac{b}{T}\approx\frac{hc}{4.9651kT}=\frac{2.90mm/K}{T}$$
 > $$(\frac{\partial^{2} S}{\partial U^{2}})^{-1}\propto U^{2}~(RJ)$$  
 > 普朗克将两种形式结合起来：  
 > $$(\frac{\partial^{2} S}{\partial U^{2}})^{-1}=C_{1}U+C_{2}U^{2}$$  
-> 最终，他得出了这样的方程形式：  
-> $$U=\frac{C_{1}C_{2}}{Ce^{C_{1}T}-1}$$  
-> 其中，$C$ 是积分常数。普朗克在报告中给出了 $C=1$。  
+> 最终，他得出了这样对波长的方程形式：  
+> $$U=\frac{C\lambda^{-5}}{e^{c/\lambda T}-1}$$  
 
 ### 1900年12月：能量的离散化
 
@@ -245,11 +244,16 @@ $$U=\frac{\epsilon}{e^{\epsilon/kT}-1}=\frac{hv}{e^{hv/kT}-1}$$
 这正是普朗克那条著名的方程。  
 光的能量，只能以 $h\nu$ 的整数倍存在。  
 它揭示了能量不是连续的，而是由一个个离散的量子组成的。  
+
+他因发现能量子而荣获1918年诺贝尔物理学奖。  
+
+> *1918年诺贝尔物理学奖授予马克斯·卡尔·恩斯特·路德维希·普朗克，"因他的对量子的发现而推动物理学的发展"。*  
+
 从此，人类的目光第一次触及了量子世界的门槛——那一刻，知识的光，悄悄地在科学的夜空中亮起。  
 这标志了量子时代的黎明。  
 人类第一次窥见了宇宙最微小的秘密。  
 
-## References
+## 参考文献
 
 Blackbody Radiation: Wikipedia (<https://en.wikipedia.org/wiki/Blackbody%20Radiation>)  
 Planck's Law: Wikipedia (<https://en.wikipedia.org/wiki/Planck%27s%20Law>)  
