@@ -259,7 +259,7 @@ $$(\Delta E)^{2}=\frac{1}{c}(h\rho\nu+\frac{c^3}{8\pi}\frac{\rho^2}{\nu^2})d\nu 
 爱因斯坦的思想，永远改变了人类对**光、能量与物质**的理解。  
 他为量子物理学奠定了根基，也照亮了科学前行至今仍未止息的道路。  
 
-## References
+## 参考文献
 
 Photoelectric effect: Wikipedia (<https://en.wikipedia.org/wiki/Photoelectric_effect>)  
 Newton, I. (1704). Opticks: Or, a treatise of the reflections, refractions, inflections and colours of light. London: Sam. Smith and Benj. Walford.  
