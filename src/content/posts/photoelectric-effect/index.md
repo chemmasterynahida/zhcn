@@ -1,8 +1,8 @@
 ---
-title: 1.2. 光电效应与光的特性
+title: "量子化学：1.2. 光电效应与光的特性"
 published: 2025-10-16
 description: "爱因斯坦的理论如何改变了我们对光的理解？"
-image: "photoelectric-effect.png"
+image: "https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/photoelectric-effect.png"
 tags: ["量子化学"]
 category: 量子化学
 lang: zh-CN
@@ -74,7 +74,7 @@ draft: False
 其中，*斯托列托夫*与*菲利普·伦纳德*进行了最细致的研究。  
 他们做了定量的测量，而伦纳德还发现——紫外光甚至能够使气体分子电离，让电子从原子中被释放出来。  
 
-![Lenard's experiment](lenard-experiment.png "lenard's experiment")  
+![Lenard's experiment](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/lenard-experiment.png "Lenard's experiment")  
 
 这是伦纳德的实验装置。  
 他仔细研究光是如何让电子从金属表面逃逸的。  
@@ -83,7 +83,7 @@ draft: False
 当金属释放电子时，我们可以施加一个负电压，将这些电子推回去——就像设置了一道看不见的屏障。  
 电位越强，电子就需要越大的能量才能越过这道障碍。  
 
-![Lenard's observation](lenard-stop-potential.jpg "Lenard's observation")  
+![Lenard's observation](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/lenard-stop-potential.jpg "Lenard's observation")  
 
 在实验中，伦纳德发现了一个极为有趣的结果：  
 **遏止电位会随着光的频率增加而变大**。  
@@ -96,7 +96,7 @@ draft: False
 根据*杨氏双缝实验*与*麦克斯韦的电磁理论*，光应当表现为一种**电磁波**。  
 如果真是如此……那结果又会怎样呢？  
 
-![Double slit](Double-slit.png "Double-slit experiment")  
+![Double slit](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/Double-slit.png "Double-slit experiment")  
 
 当光照射到金属表面时，光的波动应该会逐渐把能量传递给金属中的电子。  
 只要电子积累到足够的能量，它就能够脱离金属——就像一个小小的泳者，借助浪潮的力量被推向岸边。  
@@ -126,7 +126,7 @@ draft: False
 
 如果我们把光看作由这些**能量量子**组成，那么每一个光量子——也就是我们如今称作的**光子（photon）**，都可以撞击金属内部的电子，将能量传递给它。  
 
-![Photoelectric effect](photoelectric-effect.png "Photoelectric effect")  
+![Photoelectric effect](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/photoelectric-effect.png "Photoelectric effect")  
 
 在金属中，电子受到原子吸引力的束缚。  
 只有当入射光子的能量足够大，才能让电子摆脱这种束缚，飞离金属表面。  
@@ -154,7 +154,7 @@ $$E=h\nu-\Phi$$
 多年之后，在 1916 年，*罗伯特·密立根*亲自验证了爱因斯坦的理论。  
 他测量了不同频率光线下电子的能量，结果发现两者之间竟呈完美的**线性关系**——其斜率，正好就是普朗克常数 $h$ 本身！  
 
-![Millikan's experiment](kinetic-energy.png "Millikan's experiment")  
+![Millikan's experiment](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/photoelectric-effect/kinetic-energy.png "Millikan's experiment")  
 
 一个公式，一种思想——光，不再只是波。  
 它可以同时是**波**，也是**粒子**，在两种真理之间舞动。  

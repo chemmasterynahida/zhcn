@@ -1,8 +1,8 @@
 ---
-title: 1.3. 原子模型  
+title: "量子化学: 1.3. 原子模型"  
 published: 2025-10-24  
 description: 「原子的结构是如何被揭示的？又有哪些障碍需要被跨越呢？」  
-image: "electron-cloud-model.png"  
+image: "https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/electron-cloud-model.png"  
 tags: ["量子化学"]  
 category: 量子化学  
 lang: zh_CN  
@@ -61,12 +61,12 @@ draft: False
 在一个充满低压气体的真空管中，当高电压加在两极之间时，阴极那一端就会射出一道奇异的光流。  
 
 汤姆孙施加了**电场**和**磁场**，发现这些射线居然会**发生偏折**！  
-![磁场偏折实验](magnetic-deflection.png "magnetic-deflection")  
+![Magnetic deflection](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/magnetic-deflection.png "Magnetic deflection")  
 这说明它们携带着**电荷**，就像运动着的带电粒子一样。  
 
 ---
 
-![汤姆孙的实验装置](thomson-equipment.png "Thomson's experiment")  
+![Thomson's experiment](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/thomson-equipment.png "Thomson's experiment")  
 经过反复而细致的测量，汤姆孙确认阴极射线的本质是一股**带电粒子的流束**。  
 当他让电场力与磁场力**恰好平衡**，使得射线笔直前行时，就能求出这些粒子的电荷质量比，也就是 $e/m$。  
 
@@ -87,9 +87,9 @@ $$(现代值:~-1.76 \times 10^{11}~C/kg)$$
 
 1905 年，在这一发现的基础上，汤姆孙提出了新的原子图景。  
 他认为带负电的电子，分布在一个带**正电的球体**中，就像布丁里的葡萄干那样散落其中。  
-![葡萄干布丁模型](pudding.jfif "plum pudding")  
+![plum pudding](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/pudding.jfif "plum pudding")  
 他称之为——**“葡萄干布丁模型（Plum Pudding Model）”**。  
-![葡萄干布丁原子模型](plum-pudding-model.jpg "plum pudding model")  
+![plum pudding model](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/plum-pudding-model.jpg "plum pudding model")  
 
 起初，这个模型看上去十分合理——电子可以均匀地排列在“带正电的果冻”中，每个都在轻柔地振动。  
 从数学上看，这似乎是稳定的……  
@@ -122,7 +122,7 @@ $$(现代值:~-1.76 \times 10^{11}~C/kg)$$
 
 然而，实验的结果却让所有人都惊呆了——  
 有些 α 粒子竟然发生了**剧烈偏折**，甚至还有一小部分直接**被反弹回来**！  
-![盖革-马斯登实验](rutherford-experiment.png "Geiger-Marsden experiment")  
+![Geiger Marsden experiment](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/rutherford-experiment.png "Geiger-Marsden experiment")  
 
 ---
 
@@ -163,8 +163,8 @@ $$E_{\alpha} = \frac{1}{4\pi\epsilon_{0}} \frac{q_{\alpha} q_{Z}}{r_{min}}$$
 他把它们的运动视为**双曲线轨道（hyperbolic orbits）**，  
 并推导出了**散射角公式**：  
 
-![模型几何解释](rutherford-explanation.png "Geometry of the model")  
-$$\theta = 2~arctan\left(\frac{r_{min}}{2b}\right) = 2~arctan\left(\frac{1}{4\pi\epsilon_{0}} \frac{q_{\alpha}q_{Z}}{2bE_{\alpha}}\right)$$  
+![Geometry of the model](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/rutherford-explanation.png "Geometry of the model")  
+$$\theta = 2\arctan\left(\frac{r_{min}}{2b}\right) = 2\arctan\left(\frac{1}{4\pi\epsilon_{0}} \frac{q_{\alpha}q_{Z}}{2bE_{\alpha}}\right)$$  
 
 其中：  
 
@@ -183,7 +183,7 @@ $$\theta = 2~arctan\left(\frac{r_{min}}{2b}\right) = 2~arctan\left(\frac{1}{4\pi
 要理解为什么某些 α 粒子会被**反弹回来**，  
 我们得先看看“散射角”是如何变化的。  
 
-![散射几何关系](scattering-geometry.png "Geometry of scattering")
+![Geometry of scattering](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/scattering-geometry.png "Geometry of scattering")
 
 卢瑟福给出了一个重要的公式，称为**微分散射截面（differential cross section）**，  
 它描述了粒子在某个角度上被散射出去的“可能性”：  
@@ -221,7 +221,7 @@ $$\frac{d\sigma}{d\theta}\approx\frac{\theta}{\theta_{rms}^{2}}exp\!\left(-\frac
 
 | θ | 卢瑟福模型 | 汤姆孙模型 |
 |:---:|:---:|:---:|
-| $\frac{d\sigma}{d\Omega}$ | $\propto\frac{1}{\sin^{4}(\theta/2)}$<br>（多项式规律） | $\propto\theta\cdot exp(-\frac{\theta^{2}}{2\theta_{rms}^{2}})$<br>（指数衰减规律） |
+| $\frac{d\sigma}{d\Omega}$ | $\propto\frac{1}{\sin^{4}(\theta/2)}$<br>（多项式规律） | $\propto\exp(-\frac{\theta^{2}}{2\theta_{rms}^{2}})$<br>（指数衰减规律） |
 | 小角度 | 概率较大 | 概率极大 |
 | 大角度 | 概率较小 | 几乎不会发生 |
 
@@ -238,7 +238,7 @@ $$\frac{d\sigma}{d\theta}\approx\frac{\theta}{\theta_{rms}^{2}}exp\!\left(-\frac
 > 电子带负电，围绕着带正电的原子核**旋转**——  
 > 就像行星绕着恒星运转一样。  
 
-![卢瑟福原子模型](rutherford-model.jpg "Rutherford's model")
+![Rutherford's model](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/rutherford-model.jpg "Rutherford's model")
 
 ---
 
@@ -248,7 +248,7 @@ $$\frac{d\sigma}{d\theta}\approx\frac{\theta}{\theta_{rms}^{2}}exp\!\left(-\frac
 
 这意味着，电子会一点点失去能量，最终螺旋式地坠入原子核，让整个原子在**极短时间内坍塌**！  
 
-![原子坍塌示意图](atom-collapse.jpg "Rutherford's model will be collapsed")
+![collapsing atom](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/atom-collapse.jpg "Rutherford's model will be collapsed")
 
 那么……原子究竟是如何保持稳定的呢？  
 这个看似简单、却极其深邃的问题——  
@@ -273,10 +273,10 @@ $$\frac{d\sigma}{d\theta}\approx\frac{\theta}{\theta_{rms}^{2}}exp\!\left(-\frac
 
 那我们从最简单的原子——**氢原子**——开始吧。  
 
-![Hydrogen spectra](hydrogen-spectra.png "Spectral lines of hydrogen in visible light range")
+![Hydrogen spectra](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/hydrogen-spectra.png "Spectral lines of hydrogen in visible light range")
 
 氢原子会发出四条显著的可见光谱线：  
-<span style="color: #ffffff; background-color: #ff0000;">**656.3 nm**</span>, <span style="color: #000000; background-color: #00ceff;">**486.1 nm**</span>, <span style="color: #ffffff; background-color: #1400ff;">**434.0 nm**</span>, and <span style="color: #ffffff; background-color: #6500ff;">**410.2 nm**</span>.  
+<span style="color: #ffffff; background-color: #ff0000;">**656.3 nm**</span>, <span style="color: #000000; background-color: #00ceff;">**486.1 nm**</span>, <span style="color: #ffffff; background-color: #1400ff;">**434.0 nm**</span>, 还有 <span style="color: #ffffff; background-color: #6500ff;">**410.2 nm**</span>.  
 
 每一条光谱线都对应着特定的波长——就像氢原子在发出一首由光谱组成的优美乐曲。  
 
@@ -342,7 +342,7 @@ $$\frac{1}{\lambda} = R_{\infty} \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right
 电子会沿着**圆形轨道**绕核运动，  
 而且——这点至关重要——在这样的运动中，它们**不会损失能量**！  
 
-这个思想的灵感，来自于“**量子化**（quantization）”的概念。  
+这个思想的灵感，来自于“**量子化**（quantisation）”的概念。  
 波尔用数学语言将其表达为：  
 $$E=nh\nu=nh\frac{\omega}{2\pi}$$  
 其中：  
@@ -361,21 +361,9 @@ $$L=mvr=n\frac{h}{2\pi}$$
 ---
 
 接着，波尔运用**经典力学**，求出了电子轨道的半径与能量。  
-> 我们先回忆一下：  
-> 电子带有 $-e_{0}$ 电荷，原子核带有 $+Z e_{0}$ 电荷。  
-> 当电子在轨道上运动时，**库仑引力**必须与**向心力**平衡：  
-> $$\frac{1}{4\pi\epsilon_{0}}\frac{Ze_{0}^{2}}{r^{2}}=\frac{mv^{2}}{r}$$  
-> 又由角动量量子化关系：  
-> $$v=\frac{nh}{2\pi mr}$$  
-> 代入并化简后，可得轨道半径：  
-> $$r=\frac{n^{2}h^{2}\epsilon_{0}}{\pi Ze_{0}^{2}m}$$  
-接下来是电子的**总能量**。  
-> 动能：$E_{k} = \frac{1}{2}mv^{2}$,  
-> 势能：$U = -\frac{1}{4\pi\epsilon_{0}}\frac{Ze_{0}^{2}}{r}$.  
-> 因此总能量为：  
-> $$E-E_{k}+U=\frac{1}{2}mv^{2}-\frac{1}{4\pi\epsilon_{0}}\frac{Ze_{0}^{2}}{r}$$  
-> 将 $r$ 与 $v$ 的表达式代入后，便得到：  
-> $$E=-\frac{mZ^{2}e_{0}^{4}}{8\epsilon_{0}^{2}n^{2}h^{2}}$$  
+
+$$r=\frac{n^{2}h^{2}\epsilon_{0}}{\pi Ze_{0}^{2}m}$$  
+$$E=-\frac{mZ^{2}e_{0}^{4}}{8\epsilon_{0}^{2}n^{2}h^{2}}$$  
 其中：  
 
 * $m$ 是**电子的质量** ($9.109\times10^{-31}kg$)；  
@@ -384,7 +372,7 @@ $$L=mvr=n\frac{h}{2\pi}$$
 于是，电子只能存在于**特定的、量化的轨道**上。  
 每个轨道都有其独立的能量。  
 当电子在不同轨道之间跃迁时，它会吸收或放出一个光子，其能量恰好等于两轨道能量的差值。  
-![Bohr model](bohr-model.png "Bohr model")  
+![Bohr model](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/bohr-model.png "Bohr model")  
 
 波尔由此成功地将他的模型，与瑞德伯公式紧密联系起来：  
 $$\frac{1}{\lambda}=R_{\infty}Z^{2}(\frac{1}{n_{1}^{2}}-\frac{1}{n_{2}^{2}}),~R_{\infty}=\frac{m_{e}e_{0}^{4}}{8\epsilon_{0}^{2}h^{3}c}$$  
@@ -412,10 +400,10 @@ $$\frac{1}{\lambda}=R_{\infty}Z^{2}(\frac{1}{n_{1}^{2}}-\frac{1}{n_{2}^{2}}),~R_
 若由电场引起，被称为 **斯塔克效应**（Stark effect）；  
 若由磁场引起，则称为 **塞曼效应**（Zeeman effect）。  
 
-![Stark effect for hydrogen](stark-effect.png "Stark effect for hydrogen")  
+![Stark effect for hydrogen](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/stark-effect.png "Stark effect for hydrogen")  
 *氢原子的斯塔克效应*  
 
-![Zeeman effect for Rb-87](zeeman-effect.png "Zeeman effect for Rb-87")  
+![Zeeman effect for Rb-87](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/zeeman-effect.png "Zeeman effect for Rb-87")  
 *铷-87的塞曼效应*  
 
 为了揭开这些微妙的现象，**阿诺德·索末菲**（Arnold Sommerfeld） 与 **阿尔弗雷德·朗德**（Alfred Landé） 一起扩展了波尔的理论。  
@@ -458,7 +446,7 @@ $$E_{n,l}=-\frac{mc^{2}\alpha^{2}Z^{2}}{2n^{2}}(1+\frac{\alpha^{2}Z^{2}}{n}(\fra
 因此，电子实际上并没有感受到全部的核电荷 $+Ze_{0}$，  
 而是体验到一个减弱后的吸引力，称为**有效核电荷**，记作 $Z_{eff}$。  
 
-为了将里德伯公式推广到多电子原子，我们使用：  
+为了将瑞德伯公式推广到多电子原子，我们使用：  
 $$\frac{1}{\lambda}=R_{\infty}(\frac{Z_{eff1}^{2}}{n_{1}^{2}}-\frac{Z_{eff2}^{2}}{n_{2}^{2}})$$  
 其中：  
 
@@ -505,7 +493,7 @@ $$\lambda=\frac{h}{p}$$
 
 1927年，**戴维孙**（Clinton Davisson） 与 **杰默尔**（Lester Germer），以及独立进行实验的 **乔治·汤姆孙**（George P. Thomson），
 他们都发现——电子也会**自我干涉**，就像光一样，展现出**波动性**！
-![electron-interference](electron-interference.png "Electron can interfere")  
+![electron-interference](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/electron-interference.png "Electron can interfere")  
 
 *电子也能形成如光般的干涉图样。*  
 
@@ -561,7 +549,7 @@ $$mvr=n\hbar$$
 
 如今的原子模型呈现出一幅优美画面：
 **质子和中子**聚集在中心形成致密的原子核，周围环绕着**电子云**，形成一个概率包络。  
-![electron cloud model](electron-cloud-model.png "Electron cloud model is recognized today")  
+![electron cloud model](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/electron-cloud-model.png "Electron cloud model is recognised today")  
 
 ---
 
@@ -573,7 +561,7 @@ $$mvr=n\hbar$$
 
 |科学家|类别|年份|获奖原因|
 |:---:|:---:|:---:|:---:|
-|洛伦兹、泽曼|物理学|1902|泽曼效应|
+|洛伦兹、塞曼|物理学|1902|塞曼效应|
 |J.J.汤姆孙|物理学|1906|气体导电实验|
 |理查兹|化学|1914|原子量研究|
 |普朗克|物理学|1918|量子假说|
@@ -614,7 +602,7 @@ $$mvr=n\hbar$$
 * 对于多电子原子，能级顺序为：  
   $1s→2s→2p→3s→3p→4s→3d→4p→5s→4d→5p→6s→4f→5d→6p→\cdots$  
 
-![periodic table](periodic-table.png "alkali metals in periodic table")  
+![periodic table](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/atomic-model/periodic-table.png "alkali metals in periodic table")  
 应用这些概念，我们可以看到一些有趣的规律：  
 
 * 第一个 2s 电子出现在第 3 个元素，  
@@ -627,6 +615,24 @@ $$mvr=n\hbar$$
 它们之所以化学性质相似，是因为都拥有**相同数目的最外层电子**。  
 
 当我们讨论**多电子原子**时，会更仔细地研究这些规律。  
+
+## 波尔的原子模型推导
+
+> 我们先回忆一下：  
+> 电子带有 $-e_{0}$ 电荷，原子核带有 $+Z e_{0}$ 电荷。  
+> 当电子在轨道上运动时，**库仑引力**必须与**向心力**平衡：  
+> $$\frac{1}{4\pi\epsilon_{0}}\frac{Ze_{0}^{2}}{r^{2}}=\frac{mv^{2}}{r}$$  
+> 又由角动量量子化关系：  
+> $$v=\frac{nh}{2\pi mr}$$  
+> 代入并化简后，可得轨道半径：  
+> $$r=\frac{n^{2}h^{2}\epsilon_{0}}{\pi Ze_{0}^{2}m}$$  
+接下来是电子的**总能量**。  
+> 动能：$E_{k} = \frac{1}{2}mv^{2}$,  
+> 势能：$U = -\frac{1}{4\pi\epsilon_{0}}\frac{Ze_{0}^{2}}{r}$.  
+> 因此总能量为：  
+> $$E-E_{k}+U=\frac{1}{2}mv^{2}-\frac{1}{4\pi\epsilon_{0}}\frac{Ze_{0}^{2}}{r}$$  
+> 将 $r$ 与 $v$ 的表达式代入后，便得到：  
+> $$E=-\frac{mZ^{2}e_{0}^{4}}{8\epsilon_{0}^{2}n^{2}h^{2}}$$  
 
 ## 德布罗意的物质波推导
 

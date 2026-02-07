@@ -3,7 +3,7 @@ lang: zh_CN
 ---
 # 关于
 
-![Nahida](/zhcn/images/nahida.png)
+![Nahida](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/images/nahida.png)
 
 ## 欢迎来到我的博客!
 
@@ -29,7 +29,7 @@ lang: zh_CN
 >
 > - [GitHub](https://github.com/chemmasterynahida/)
 > - [YouTube](https://www.youtube.com/@chemmasterynahida)
-> - [WeChat](/zhcn/images/wechat.png)
+> - [WeChat](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/images/wechat.png)
 > - [Discord](https://discord.gg/2nUFTgBr73)
 > - [chemmasterynahida@gmail.com](mailto:chemmasterynahida@gmail.com)
 

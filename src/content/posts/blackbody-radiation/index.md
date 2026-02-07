@@ -1,8 +1,8 @@
 ---
-title: 1.1. 黑体辐射
+title: "量子化学：1.1. 黑体辐射"
 published: 2025-10-05
 description: "黑体辐射理论遇到了什么问题？又是如何被解决的？"
-image: "planck.png"
+image: "https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/blackbody-radiation/planck.png"
 tags: ["量子化学"]
 category: 量子化学
 lang: zh_CN
@@ -18,7 +18,7 @@ draft: false
 
 在开始之前，我们需要先了解「量子」这个词的含义。  
 你可能早就听说过它，对吧？是不是觉得它听起来有点未来感？比如「量子计算机」，就是现在非常热门的技术呢！  
-![quantum computer](qc.jpg "Google量子计算机")
+![quantum computer](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/blackbody-radiation/qc.jpg "Quantum Computer by Google")
 
 不过，「量子」到底是什么意思呢？  
 如果你想到「quantity（量）」这个词，那就非常接近了！「quantum」正是由它演变而来，意思是「某种事物的最小单位」。  
@@ -56,7 +56,7 @@ $k$: 玻尔兹曼常数 ($k=1.380649×10^{−23}~J/K$)
 然而……事情出了问题。  
 在高频区域，这个公式竟然预示能量会无穷大！  
 物理学家称之为 **「紫外灾难」**。  
-![ultraviolet catastrophe](planck.png "\"Ultraviolet catastrophe\"")  
+![ultraviolet catastrophe](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/blackbody-radiation/planck.png "\"Ultraviolet catastrophe\"")  
 瑞利–金斯定律在低频率准确，而维恩定律在高频率成立。  
 但两者之间，却存在着一道无法跨越的鸿沟。  
 
@@ -113,9 +113,45 @@ $$\lambda_{peak}=\frac{b}{T}$$
 
 两者都可从普朗克定律中推导而来。  
 
-### 斯特藩–玻尔兹曼定律的推导
+### 斯特藩–玻尔兹曼定律
 
-对所有频率积分，可得总辐射能量：  
+对所有频率积分，可得总辐射能量。  
+我们还可以从中获取地表辐射。  
+
+**斯特藩–玻尔兹曼定律**  
+$$M=\sigma T^{4}=\frac{2\pi^{5}k^{4}}{15h^{3}c^{2}}T^{4}$$  
+$$\sigma=\frac{2\pi^{5}k^{4}}{15h^{3}c^{2}}=5.67\times10^{-8}W/m^{2}\cdot K^{4}$$  
+这个数值与实验结果完全吻合～  
+
+### 维恩位移定律
+
+维恩位移定律（Wien’s displacement law） 描述的是在什么波长（或频率）下，黑体的辐射最强。  
+
+辐射强度的峰值波长为：  
+**维恩位移定律**  
+$$\lambda_{peak}=\frac{b}{T}\approx\frac{hc}{4.9651kT}=\frac{2.90mm/K}{T}$$  
+温度越高，辐射峰值越短——  
+所以，炽热的物体会从红光逐渐变为黄光、再到蓝白光。  
+
+### $\nu\rightarrow0$
+
+瑞利–金斯定律（Rayleigh–Jeans law） 能很好地解释低频情况下的实验结果。在低频极限下（$\nu$ 很小时），普朗克定律应当趋近于瑞利–金斯定律：  
+$$\lim_{\nu\rightarrow0}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu=\frac{8\pi kT\nu^{2}}{c^{3}}d\nu$$  
+当频率很小时，普朗克定律就会收敛为瑞利–金斯定律。  
+
+### $\nu\rightarrow\infty$
+
+而在高频极限下，维恩定律（Wien’s law） 则更符合实验结果。对于较大的频率 $\nu$，普朗克定律会收敛为维恩定律：  
+$$\lim_{\nu\rightarrow\infty}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu=\frac{8\pi h\nu^{3}}{c^{3}}\cdot e^{-h\nu/kT}d\nu=a\nu^{3}e^{-b\nu/T}$$  
+因此，在高频时，普朗克定律的形式会非常接近维恩定律。  
+
+---
+---
+
+## 推导
+
+### 斯特藩–玻尔兹曼定律：推导
+
 > $$\int du=\int_{0}^{\infty}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu$$  
 > 令 $x=h\nu/kT$，因此 $dx=hd\nu/kT$，可以进行变量替换：  
 > $$\int_{0}^{\infty}\frac{8\pi k^{3}T^{3}}{h^{2}c^{3}}\cdot\frac{x^{3}}{e^{x}-1}\cdot\frac{kT}{h}dx$$  
@@ -126,14 +162,8 @@ $$\lambda_{peak}=\frac{b}{T}$$
 > 这样，我们就得到了黑体辐射的总辐射能量（单位：$J/m^{3}$）。不过，斯特藩–玻尔兹曼定律讨论的是辐射功率（单位：$W/m^{2}$）。我们可以通过乘上 $c/4$，将体积能量转换为单位面积的辐射功率：
 > $$M=E\cdot\frac{c}{4}=\frac{8\pi^{5}k^{4}T^{4}}{15h^{3}c^{3}}\cdot\frac{c}{4}=\frac{2\pi^{5}k^{4}T^{4}}{15h^{3}c^{2}}=\sigma T^{4}$$  
 
-**斯特藩–玻尔兹曼定律**  
-$$M=\sigma T^{4}=\frac{2\pi^{5}k^{4}}{15h^{3}c^{2}}T^{4}$$  
-$$\sigma=\frac{2\pi^{5}k^{4}}{15h^{3}c^{2}}=5.67\times10^{-8}W/m^{2}\cdot K^{4}$$  
-这个数值与实验结果完全吻合～  
+### 维恩位移定律：推导
 
-### 维恩位移定律的推导
-
-> 维恩位移定律（Wien’s displacement law） 描述的是在什么波长（或频率）下，黑体的辐射最强。  
 > $$\frac{d(du/d\lambda)}{d\lambda}=0$$  
 > 普朗克定律也可以用波长来表示：  
 > $$\frac{du(\lambda,T)}{d\lambda}=\frac{8\pi hc}{\lambda^{5}}\cdot\frac{1}{e^{hc/\lambda kT}-1}$$  
@@ -146,32 +176,19 @@ $$\sigma=\frac{2\pi^{5}k^{4}}{15h^{3}c^{2}}=5.67\times10^{-8}W/m^{2}\cdot K^{4}$
 > 因此，这个关系可以写作：  
 > $$\lambda_{peak}=\frac{b}{T}\approx\frac{hc}{4.9651kT}=\frac{2.90mm/K}{T}$$  
 
-辐射强度的峰值波长为：  
-**维恩位移定律**  
-$$\lambda_{peak}=\frac{b}{T}\approx\frac{hc}{4.9651kT}=\frac{2.90mm/K}{T}$$  
-温度越高，辐射峰值越短——  
-所以，炽热的物体会从红光逐渐变为黄光、再到蓝白光。  
+### $\nu\rightarrow0$：推导
 
-### $\nu\rightarrow0$
-
-瑞利–金斯定律（Rayleigh–Jeans law） 能很好地解释低频情况下的实验结果。在低频极限下（$\nu$ 很小时），普朗克定律应当趋近于瑞利–金斯定律：  
 > $$\lim_{\nu\rightarrow0}du(\nu,T)=\lim_{\nu\rightarrow0}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu$$  
 > 已知极限：  
 > $$\lim_{x\rightarrow0}\frac{e^{x}-1}{x}=1$$  
 > 因此方程可化为：  
 > $$\lim_{\nu\rightarrow0}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu=\frac{8\pi kT\nu^{2}}{c^{3}}d\nu$$  
-当频率很小时，普朗克定律就会收敛为瑞利–金斯定律。  
 
-### $\nu\rightarrow\infty$
+### $\nu\rightarrow\infty$：推导
 
-而在高频极限下，维恩定律（Wien’s law） 则更符合实验结果。对于较大的频率 $\nu$，普朗克定律会收敛为维恩定律：  
 > $$\lim_{\nu\rightarrow\infty}du(\nu,T)=\lim_{\nu\rightarrow\infty}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu$$  
 > 由于指数函数增长极快，我们可以近似认为 $e^{h\nu/kT}-1 \approx e^{h\nu/kT}$。
 > $$\lim_{\nu\rightarrow\infty}\frac{8\pi h\nu^{3}}{c^{3}}\cdot\frac{1}{e^{h\nu/kT}-1}d\nu=\frac{8\pi h\nu^{3}}{c^{3}}\cdot e^{-h\nu/kT}d\nu=a\nu^{3}e^{-b\nu/T}$$  
-因此，在高频时，普朗克定律的形式会非常接近维恩定律。  
-
----
----
 
 ## 普朗克的思考与启发
 
@@ -188,7 +205,7 @@ $$\lambda_{peak}=\frac{b}{T}\approx\frac{hc}{4.9651kT}=\frac{2.90mm/K}{T}$$
 > 普朗克首先从热力学的角度来研究这个问题。热力学第一定律可以写作：  
 > $$dU=TdS-PdV$$  
 > 在黑体辐射实验中，实验装置是一个带有微小孔洞的封闭腔体，因此系统体积几乎不变。  
-> ![experiment](experiment.jpg "黑体辐射实验")  
+> ![experiment](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/blackbody-radiation/experiment.jpg "Blackbody Radiation Experiment")  
 > 因此可以简化为：  
 > $$dU=TdS,~\frac{\partial S}{\partial U}=\frac{1}{T}$$  
 > 普朗克分别考虑了两条定律下熵随能量的变化关系：  

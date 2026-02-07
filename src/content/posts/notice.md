@@ -23,5 +23,5 @@ draft: false
 
 如果这些内容中有让你觉得有些困难的地方，请不用担心。  
 告诉我吧～我会为你准备一节特别的课程，慢慢讲解给你听。  
-我相信，只要有初中程度的基础，你一定能轻松理解它们的奥秘。  
-![nahida](jing-shan-she-shou-ming-lun.png)  
+<!--我相信，只要有初中程度的基础，你一定能轻松理解它们的奥秘。  -->
+![nahida](https://gcore.jsdelivr.net/gh/chemmasterynahida/assets/common/jing-shan-she-shou-ming-lun.png)  
